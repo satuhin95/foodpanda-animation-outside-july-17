@@ -28,7 +28,7 @@
         }else{
             $(".slide_1 .element_2 .headlinebeshi").removeClass("hidden").addClass("showZoomIn");
             $(".slide_1 .element_3 .minutes").removeClass("hidden").addClass("showZoomIn");
-            setTimeout(outside, 1500);
+            setTimeout(headline, 1500);
         }
     }
 
@@ -45,9 +45,8 @@
                 setTimeout(headline, 1500);
             }, 500);
         }else{
-            $( ".slide_1 .element_2 .headline" ).removeClass( "hideZoomOut" ).addClass( "showZoomIn" );
-            $( ".slide_1 .element_3 .delivery" ).removeClass( "hideZoomOut" ).addClass( "showZoomIn" );
-            setTimeout(headline, 1500);
+            $( ".slide_1" ).removeClass( "hideZoomOut" ).addClass("showZoomIn");
+            setTimeout(headlinebeshi, 1500);
         }
 
     }
